@@ -1,0 +1,172 @@
+{
+    "reviews": [
+        {
+            "professor": "Dr. Sarah Johnson",
+            "subject": "Mathematics",
+            "stars": 5,
+            "review": "Dr. Johnson is amazing at explaining complex concepts. Her lectures are clear and engaging."
+        },
+        {
+            "professor": "Prof. Ahmed Khan",
+            "subject": "Physics",
+            "stars": 4,
+            "review": "Prof. Khan is very knowledgeable, though his lectures can sometimes be a bit fast-paced."
+        },
+        {
+            "professor": "Dr. Emily Davis",
+            "subject": "Chemistry",
+            "stars": 3,
+            "review": "Dr. Davis is good, but her grading is quite strict. You need to work hard to score well."
+        },
+        {
+            "professor": "Dr. John Smith",
+            "subject": "Computer Science",
+            "stars": 5,
+            "review": "Dr. Smith is the best professor I've had. His programming assignments are challenging but rewarding."
+        },
+        {
+            "professor": "Prof. Linda Brown",
+            "subject": "History",
+            "stars": 4,
+            "review": "Prof. Brown knows her subject well. Her classes are interesting, but there's a lot of reading."
+        },
+        {
+            "professor": "Dr. Mark Thompson",
+            "subject": "Economics",
+            "stars": 5,
+            "review": "Dr. Thompson makes economics fun and relevant. His lectures are always insightful."
+        },
+        {
+            "professor": "Prof. Ali Raza",
+            "subject": "Statistics",
+            "stars": 2,
+            "review": "Prof. Raza's lectures are difficult to follow, and he doesn't provide much help outside of class."
+        },
+        {
+            "professor": "Dr. Alice White",
+            "subject": "Philosophy",
+            "stars": 4,
+            "review": "Dr. White is a great professor, but her classes require deep thinking and lots of participation."
+        },
+        {
+            "professor": "Prof. Robert Lee",
+            "subject": "Biology",
+            "stars": 3,
+            "review": "Prof. Lee is knowledgeable, but his exams are tough. Study hard and attend all lectures."
+        },
+        {
+            "professor": "Dr. Maria Garcia",
+            "subject": "Psychology",
+            "stars": 5,
+            "review": "Dr. Garcia is fantastic! She connects theory with real-world examples, making the subject easy to understand."
+        },
+        {
+            "professor": "Prof. Kevin Patel",
+            "subject": "Sociology",
+            "stars": 4,
+            "review": "Prof. Patel encourages discussions and debates, which makes the class engaging. However, the workload is heavy."
+        },
+        {
+            "professor": "Dr. David Miller",
+            "subject": "Engineering",
+            "stars": 3,
+            "review": "Dr. Miller's lectures are detailed, but sometimes hard to understand. His office hours are helpful though."
+        },
+        {
+            "professor": "Prof. Jason Williams",
+            "subject": "Art History",
+            "stars": 5,
+            "review": "Prof. Williams is passionate about art. His classes are interesting and visually stimulating."
+        },
+        {
+            "professor": "Dr. Angela Moore",
+            "subject": "Environmental Science",
+            "stars": 4,
+            "review": "Dr. Moore is very knowledgeable. Her classes are informative, but her exams are tricky."
+        },
+        {
+            "professor": "Prof. Anil Mehta",
+            "subject": "Business Management",
+            "stars": 5,
+            "review": "Prof. Mehta is an excellent professor. He has real-world experience that he brings into his teaching."
+        },
+        {
+            "professor": "Dr. Karen Taylor",
+            "subject": "English Literature",
+            "stars": 4,
+            "review": "Dr. Taylor has a deep understanding of literature. Her classes are insightful, but there's a lot of reading."
+        },
+        {
+            "professor": "Prof. Michael Wong",
+            "subject": "Political Science",
+            "stars": 3,
+            "review": "Prof. Wong's classes are content-heavy. You need to stay up-to-date with the readings to do well."
+        },
+        {
+            "professor": "Dr. Laura Clark",
+            "subject": "Pharmacology",
+            "stars": 5,
+            "review": "Dr. Clark is an excellent teacher. Her classes are challenging, but she explains the material very well."
+        },
+        {
+            "professor": "Prof. Richard Taylor",
+            "subject": "Astronomy",
+            "stars": 4,
+            "review": "Prof. Taylor's lectures are fascinating. He has a way of making complex concepts easy to understand."
+        },
+        {
+            "professor": "Dr. Christine Adams",
+            "subject": "Anthropology",
+            "stars": 3,
+            "review": "Dr. Adams is knowledgeable, but her lectures can be a bit dry. Her exams are fair, though."
+        },
+        {
+            "professor": "Paul Nguyen ",
+            "subject": "Computer Science",
+            "stars": 5,
+            "review": "Great teacher, great material"
+        },
+        {
+            "professor": "Neelam Rattan ",
+            "subject": "Psychology",
+            "stars": 4,
+            "review": "Had her for the first five-week summer session. One thing I liked about her for the summer class was that there weren't a lot of assignments since there were case studies, a TED talk video, 3 exams, and there was a research project that was due by the end of the term."
+        },
+        {
+            "professor": "Mary Wilson ",
+            "subject": "History",
+            "stars": 3,
+            "review": "Glad she is gone. What a waste of our dollars to not be taught how to write a paper."
+        },
+        {
+            "professor": "Brent Duckor ",
+            "subject": "Secondary Education",
+            "stars": 4,
+            "review": "Dr. Duckor is a gem of a professor, one of the best in the doctoral program at SJSU. He is deeply knowledgeable and yet approachable, kind, and funny. He sets you at ease even while he helps doctoral students wade through the finer points of assessing assessments. He is a master at his craft and I would happily take another course from him!!"
+        },
+        {
+            "professor": "Cheryl Chancellor Freeland ",
+            "subject": "Psychology",
+            "stars": 5,
+            "review": "Dr. CCF is an excellent teacher. Attendance isn't mandatory but necessary for success. She gives lots of resources like lecture outlines/slides and opportunities to use cheat sheets for tests/final. Many people mistake her teaching style as being difficult when it is actually super dense course content. Be prepared to study and do her extra credit!"
+        },
+        {
+            "professor": "Carroll Buck ",
+            "subject": "Accounting",
+            "stars": 4,
+            "review": "He grades on 3 midterms and joining the IMA club. He used to be an executive for a utilities company in Maine. You gotta take him, he gives a real world, business perspective for the class. He's also extremely knowledgeable in life tips and making it to the top in the industry. If you want to learn more than just the textbook, take Carroll."
+        },
+        {
+            "professor": "Elizabeth Sonnier ",
+            "subject": "Philosophy",
+            "stars": 3,
+            "review": "RIP. Professor Sonnier passed away recently."
+        },
+        {
+            "professor": "William Devincenzi ",
+            "subject": "Accounting",
+            "stars": 4,
+            "review": "He's really Amazing! A must have course!!"
+        }
+    ]
+}

@@ -45,7 +45,7 @@ def scrape():
         "review": prof_review,
     }
 
-    with open("../reviews.json", "r") as file:
+    with open("../rate_my_prof_ai/reviews.json", "r") as file:
         data = json.load(file)
 
     for review in data["reviews"]:
@@ -57,7 +57,7 @@ def scrape():
 
     data["reviews"].append(new_entry)
 
-    with open("../reviews.json", "w") as file:
+    with open("../rate_my_prof_ai/reviews.json", "w") as file:
         json.dump(data, file, indent=4)
 
     genai.configure(api_key=os.getenv("NEXT_PUBLIC_GEMINI_API"))

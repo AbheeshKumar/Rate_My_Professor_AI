@@ -52,7 +52,6 @@ export default function Home() {
         let result = "";
         return reader.read().then(function processText({ done, value }) {
           if (done) {
-            console.log(result);
             return result;
           }
           const text = decoder.decode(value || new Uint8Array(), {

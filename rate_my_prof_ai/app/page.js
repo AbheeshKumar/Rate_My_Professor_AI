@@ -220,7 +220,7 @@ export default function Home() {
           p={4}
         >
           <Typography variant="h6" component="h2">
-            The professor's data has been successfully inserted. You can
+            The professors data has been successfully inserted. You can
           </Typography>
           <Typography sx={{ mt: 2 }}>
             proceed to interact with the AI about the professor

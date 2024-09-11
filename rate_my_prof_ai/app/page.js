@@ -79,12 +79,9 @@ export default function Home() {
     e.preventDefault();
     setIsFlaskLoading(true);
     try {
-      const response = await axios.post(
-        "ratemyprofessoraibackend-production.up.railway.app/scrape",
-        {
-          url,
-        }
-      );
+      const response = await axios.post("http://localhost:5000/scrape", {
+        url,
+      });
       setRes(response);
       setIsFlaskLoading(false);
       handleOpen();

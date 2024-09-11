@@ -167,6 +167,12 @@
             "subject": "Accounting",
             "stars": 4,
             "review": "He's really Amazing! A must have course!!"
+        },
+        {
+            "professor": "Thaddeus Aid ",
+            "subject": "Computer Science",
+            "stars": 4,
+            "review": "1 of my most fav classes ever. For a dry subject, I ended up enjoying the topic and learned a lot. Very accessible & provides advice about the industry/jobs. He also includes diversity in his lectures, so you learn about more than just computability. Not a hard class when you attend the lectures - he explains things very well."
         }
     ]
 }

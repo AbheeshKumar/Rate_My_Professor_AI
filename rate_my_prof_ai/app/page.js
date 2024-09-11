@@ -74,14 +74,17 @@ export default function Home() {
       });
     setIsLoading(false);
   };
-
+  //ratemyprofessorai-production.up.railway.app
   const sendUrl = async (e) => {
     e.preventDefault();
     setIsFlaskLoading(true);
     try {
-      const response = await axios.post("http://localhost:5000/scrape", {
-        url,
-      });
+      const response = await axios.post(
+        "ratemyprofessorai-production.up.railway.app/scrape",
+        {
+          url,
+        }
+      );
       setRes(response);
       setIsFlaskLoading(false);
       handleOpen();

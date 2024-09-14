@@ -173,6 +173,12 @@
             "subject": "Computer Science",
             "stars": 4,
             "review": "1 of my most fav classes ever. For a dry subject, I ended up enjoying the topic and learned a lot. Very accessible & provides advice about the industry/jobs. He also includes diversity in his lectures, so you learn about more than just computability. Not a hard class when you attend the lectures - he explains things very well."
+        },
+        {
+            "professor": "Ray Buyco ",
+            "subject": "History",
+            "stars": 4,
+            "review": "He is totally approachable and understanding. He is super friendly and knowledgable about the information. He does a great job of staying focused on the material while relating it to present day and explaining how its playing a role. He really cares about his students and presents the content in a digestible way."
         }
     ]
 }

@@ -79,12 +79,9 @@ export default function Home() {
     e.preventDefault();
     setIsFlaskLoading(true);
     try {
-      const response = await axios.post(
-        "https://rmpaibackend-production.up.railway.app/scrape",
-        {
-          url,
-        }
-      );
+      const response = await axios.post("http://127.0.0.1:5000/scrape", {
+        url,
+      });
       setRes(response);
       setIsFlaskLoading(false);
       handleOpen();

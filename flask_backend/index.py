@@ -12,6 +12,8 @@ from pinecone import Pinecone
 
 app = Flask(__name__)
 CORS(app)
+base_dir = os.path.dirname(os.path.abspath(__file__))
+frontend_path = os.path.join(base_dir, "..", "rate_my_prof_ai", "reviews.json")
 
 
 @app.route("/scrape", methods=["POST"])
@@ -45,7 +47,7 @@ def scrape():
         "review": prof_review,
     }
 
-    with open("../rate_my_prof_ai/reviews.json", "r") as file:
+    with open(frontend_path, "r") as file:
         data = json.load(file)
 
     for review in data["reviews"]:
@@ -57,7 +59,7 @@ def scrape():
 
     data["reviews"].append(new_entry)
 
-    with open("../rate_my_prof_ai/reviews.json", "w") as file:
+    with open(frontend_path, "w") as file:
         json.dump(data, file, indent=4)
 
     genai.configure(api_key=os.getenv("NEXT_PUBLIC_GEMINI_API"))
@@ -89,4 +91,4 @@ def scrape():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", debug=True, port=os.getenv("PORT", default=8080))
+    app.run(host="0.0.0.0", debug=True, port=os.getenv("PORT", default=5000))

@@ -13,7 +13,7 @@ from pinecone import Pinecone
 app = Flask(__name__)
 CORS(app)
 base_dir = os.path.dirname(os.path.abspath(__file__))
-frontend_path = os.path.join(base_dir, "..", "rate_my_prof_ai", "reviews.json")
+frontend_path = os.path.join(base_dir, "reviews.json")
 
 
 @app.route("/scrape", methods=["POST"])
